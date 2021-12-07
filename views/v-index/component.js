@@ -1,6 +1,5 @@
 import { template, tagName } from "./template.js";
 import { Cmp } from "/library";
-import * as redux from "/redux/dist/redux.js";
 
 Cmp(tagName, (Lib) => {
   return class extends Lib {
@@ -9,8 +8,6 @@ Cmp(tagName, (Lib) => {
       if (!this.getAttribute("rendered")) {
         this.innerHTML = template;
       }
-      console.log("Hola!");
-      console.log(redux);
     }
 
     connectedCallback() {

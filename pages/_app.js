@@ -13,7 +13,7 @@ export function App({ head = "", scripts = "", main = "" }) {
     ${head}
   </head>
   <body>
-    ${main}
+    <div id="naxt"> ${main} </div>
     <script src="/components/index.js" type="module"></script>
     ${scripts}
   </body>

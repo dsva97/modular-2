@@ -1,4 +1,3 @@
-import { component as Button } from "../x-button/template.js";
 export const tagName = "x-form";
 
 export const template = () => {
@@ -21,7 +20,5 @@ export const template = () => {
     <div>
       <button class="btn">Submit</button>
     </div>
-
-    ${Button()}
   `;
 };
